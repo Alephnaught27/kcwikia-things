@@ -1,11 +1,8 @@
 # Kancolle Wikia Quest Syntax / Grammar
 ## Preface
 * This is a general quest description grammar, meant to cover 99% of cases.
-* The purpose of this is to establish consistancy amongst quest descriptions. Many older descriptions still exist and 
-contrast greatly in wording compared to newer ones; some of them are worded oddly or ambiguously, which only serves to cause confusion. 
-This aims to eliminate that.
-* There will, for sure, be quests that have requirements that do not fall into this grammar. In those edge cases, follow the grammar as strictly as possible while including 
-the variant requirements.
+* The purpose of this is to establish consistancy amongst quest descriptions. Many older descriptions contrasted greatly in wording between eachother, and some of them were worded oddly or ambiguously, which only served to cause confusion. This aims to eliminate that going forward.
+* There will, for sure, be quests that have requirements that do not fall into this grammar. In those edge cases, follow the grammar as strictly as possible while including the variant requirements.
 * `<>` denotes terms that are not to be taken literally and are defined in the glossary. Examples of each are given where applicable, more will be added as needed.
 
 ## Composition
@@ -51,9 +48,9 @@ Scrap <Equipment>(, ... , and <Equipment>).
 ```
 * Resources should be always be capitalized, as in the scope of the game they are proper nouns (Fuel, Steel NOT fuel, steel)
 * "Prepare" statements should list requirements in the order of resources, items, equipment.
-..* Furniture Coins are NOT a resource - they are present in the player's inventory, thus they are an item.
+	* Furniture Coins are NOT a resource - they are present in the player's inventory, thus they are an item.
 * When referring to general groups of items to scrap, link to the item page and use terminology consistent with the title of said page.
-..* Example: Anti-air guns vs Machine guns - the group page for the item says Anti-air guns, therefore use Anti-air guns.
+	* Example: Anti-air guns vs Machine guns - the group page for the item says Anti-air guns, therefore use Anti-air guns.
 
 ## Modernization
 
@@ -66,12 +63,15 @@ Refer to applicable sections above.
 ## Rewards
 
 ### For quests with no choices
-`<Equipment> xX
+```
+<Equipment> xX
 (...
-<Equipment> xX)`
+<Equipment> xX)
+```
 
 ### For quests with only choices
-`choice between
+```
+choice between
 <Equipment> xX
 or
 <Equipment> xX
@@ -82,10 +82,12 @@ then choice between
 or
 <Equipment> xX
 (or
-...))`
+...))
+```
 
 ### For quests with a mix of given items and choice items
-`<Equipment> xX
+```
+<Equipment> xX
 ((...
 <Equipment> xX)
 then choice between
@@ -93,7 +95,8 @@ then choice between
 or
 <Equipment> xX
 (or
-...))`
+...))
+```
 * Non-choice rewards first, followed by choice rewards.
 
 ## Glossary
@@ -124,4 +127,4 @@ or
 `<Node>` = An expression of the node that is involved in the quest.  Examples: boss node, node L, anchor node N.
 	
 `<Equipment>` = Any piece of equipment, inventory item, or resource. Ranking point rewards are included in this category. Plane chevron specfications & quantity required are also included here.
-*Examples: 5 12.7cm Twin Gun Mount; 1 Ne-type engine, a >>'d and +max Type 0 Model 21 (Skilled).
+* Examples: 5 12.7cm Twin Gun Mount; 1 Ne-type engine, a >>'d and +max Type 0 Model 21 (Skilled).
