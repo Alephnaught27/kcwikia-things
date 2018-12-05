@@ -107,8 +107,8 @@ or
 `[.../...]` = Use the term either on the left or right side of the '/' for this description.
 
 `<Ship>` = Either a specific or nonspecific ship name
-*specific: Kawakaze Kai Ni; Maya Kai or Maya Kai Ni
-*nonspecific: 2 ships; 2 CL; 3 level >=70 Yuugumo-class DD; 2 additional ships; at least 3 DD or DE.
+* specific: Kawakaze Kai Ni; Maya Kai or Maya Kai Ni
+* nonspecific: 2 ships; 2 CL; 3 level >=70 Yuugumo-class DD; 2 additional ships; at least 3 DD or DE.
 	
 `<as flagship>` = Denotes that the given Ship must be the flagship of the given fleet.
 	
