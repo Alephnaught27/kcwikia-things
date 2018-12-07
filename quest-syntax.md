@@ -102,7 +102,7 @@ or
 ## Glossary
 `X` = Generic placeholder for integer values. X's inside of <>'s are NOT equivalent, see below.
 
-`()` = Denote terms that are not included in every description, but should be included when appropriate.
+`()` = Denotes terms that are not included in every description, but should be included when appropriate.
 
 `[.../...]` = Use the term either on the left or right side of the '/' for this description.
 
@@ -126,5 +126,5 @@ or
 	
 `<Node>` = An expression of the node that is involved in the quest.  Examples: boss node, node L, anchor node N.
 	
-`<Equipment>` = Any piece of equipment, inventory item, or resource. Ranking point rewards are included in this category. Plane chevron specfications & quantity required are also included here.
-* Examples: 5 12.7cm Twin Gun Mount; 1 Ne-type engine, a >>'d and +max Type 0 Model 21 (Skilled).
+`<Equipment>` = Any piece of equipment, inventory item, or resource. Ranking point rewards are included in this category. Plane proficiency & quantity required are also included here.
+* Examples: 5 12.7cm Twin Gun Mount; 1 Ne-type engine, a >> and +max Type 0 Model 21 (Skilled).
