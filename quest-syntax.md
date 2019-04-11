@@ -102,13 +102,13 @@ or
 ## Glossary
 `X` = Generic placeholder for integer values. X's inside of <>'s are NOT equivalent, see below.
 
-`()` = Denote terms that are not included in every description, but should be included when appropriate.
+`()` = Denotes terms that are not included in every description, but should be included when appropriate.
 
 `[.../...]` = Use the term either on the left or right side of the '/' for this description.
 
 `<Ship>` = Either a specific or nonspecific ship name.
-*specific: Kawakaze Kai Ni; Maya Kai or Maya Kai Ni.
-*nonspecific: 2 ships; 2 CL; 3 level >=70 Yuugumo-class DD; 2 additional ships; at least 3 DD or DE.
+* specific: Kawakaze Kai Ni; Maya Kai or Maya Kai Ni.
+* nonspecific: 2 ships; 2 CL; 3 level >=70 Yuugumo-class DD; 2 additional ships; at least 3 DD or DE.
 	
 `<as flagship>` = Denotes that the given Ship must be the flagship of the given fleet.
 	
@@ -126,5 +126,5 @@ or
 	
 `<Node>` = An expression of the node that is involved in the quest.  Examples: the boss node, node L, the anchor node N.
 	
-`<Equipment>` = Any piece of equipment, inventory item, or resource. Ranking point rewards are included in this category. Plane chevron specfications & quantity required are also included here.
-* Examples: 5 12.7cm Twin Gun Mount; 1 Ne-type engine, a >>'d and +max Type 0 Model 21 (Skilled).
+`<Equipment>` = Any piece of equipment, inventory item, or resource. Ranking point rewards are included in this category. Plane proficiency & quantity required are also included here.
+* Examples: 5 12.7cm Twin Gun Mount; 1 Ne-type engine, a >> and +max Type 0 Model 21 (Skilled).
