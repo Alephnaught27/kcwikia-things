@@ -11,9 +11,9 @@
 
 ## Sortie
 
-`Sortie [a/the <fleet number> fleet] with <Ship> (<as flagship>, <Ship> <as second ship>, ... , and <Ship>) to World(s) X-X(, X-X, ... , and X-X).  (Obtain <Rank> at <Node> (at X-X) <times>) (or) (Reach <Node> <times>, whichever is applicable).  (Obtain...) ...`
+`Sortie [a/the <fleet number> fleet] with <Ship> (<as flagship>, <Ship> <as second ship>, ... , and <Ship>) to World(s) X-X(, X-X, ... , and X-X).  [Obtain <Rank> at <Node> (of X-X(, X-X, ... , and X-X)) <Times>/Reach <Node> (of X-X(, X-X, ... , and X-X)) <Times>].  ([Obtain...]) ...`
 
-* Use multiple "Obtain" statements for maps that have lots of specific requirements.  A quest that involves 1-6 does NOT necessarily require mutliple "Obtain" statements, as reflected in the grammar.
+* Use multiple "Obtain" statements for maps that have many specific requirements.
 * X-X is a placeholder for a world ID, they should be filled in as needed and should link to the respective world page.
 
 ## Exercise
@@ -26,7 +26,7 @@
 
 ## Supply/Docking Quests
 
-[  ]
+Handle on a case-by-case basis.
 
 ## Arsenal
 
@@ -54,7 +54,7 @@ Scrap <Equipment>(, ... , and <Equipment>).
 
 ## Modernization
 
-[  ]
+Handle on a case-by-case basis.
 
 ## Marriage
 
@@ -71,7 +71,7 @@ Refer to applicable sections above.
 
 ### For quests with only choices
 ```
-choice between
+Choice between
 <Equipment> xX
 or
 <Equipment> xX
@@ -106,8 +106,8 @@ or
 
 `[.../...]` = Use the term either on the left or right side of the '/' for this description.
 
-`<Ship>` = Either a specific or nonspecific ship name
-*specific: Kawakaze Kai Ni; Maya Kai or Maya Kai Ni
+`<Ship>` = Either a specific or nonspecific ship name.
+*specific: Kawakaze Kai Ni; Maya Kai or Maya Kai Ni.
 *nonspecific: 2 ships; 2 CL; 3 level >=70 Yuugumo-class DD; 2 additional ships; at least 3 DD or DE.
 	
 `<as flagship>` = Denotes that the given Ship must be the flagship of the given fleet.
@@ -124,7 +124,7 @@ or
 	
 `<Times>` = The number of times an action must be performed to fufill quest requirements. The lack of this term implies that the action must be performed only once; inclusion in these cases may be recommended for the sake of emphasis. Expressed as once, twice, three times, four times, etc.
 	
-`<Node>` = An expression of the node that is involved in the quest.  Examples: boss node, node L, anchor node N.
+`<Node>` = An expression of the node that is involved in the quest.  Examples: the boss node, node L, the anchor node N.
 	
 `<Equipment>` = Any piece of equipment, inventory item, or resource. Ranking point rewards are included in this category. Plane chevron specfications & quantity required are also included here.
 * Examples: 5 12.7cm Twin Gun Mount; 1 Ne-type engine, a >>'d and +max Type 0 Model 21 (Skilled).
