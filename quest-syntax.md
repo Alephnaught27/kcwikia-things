@@ -9,7 +9,7 @@
 ## Quest Descriptions
 ### Composition
 
-`Have (ONLY) <Ship> ((<as X ship>), <Ship> (<as X ship>), ... , and <Ship> (<as X ship>)) in your <Fleet Number> fleet.`
+`Have (ONLY) <Ship> ((<as X ship>), <Ship> (<as X ship>), ... , and <Ship> (<as X ship>)) in your (<Fleet Number>) fleet.`
 
 ### Sortie
 
@@ -20,7 +20,7 @@
 
 ### Exercise
 
-`(Use a fleet with <Ship> (<as flagship>, <Ship> <as second ship>, ... , and <Ship>) to) (Obtain <Rank>/Participate) in Exercises <times> (<within the same X>).`
+`(Use a fleet with <Ship> ((<as X ship>), <Ship> (<as X ship>), ... , and <Ship> (<as X ship>)) to) (Obtain <Rank>/Participate) in Exercises <times> (<within the same X>).`
 
 ### Expedition
 
@@ -110,8 +110,8 @@ or
 `[... / ...]` = Use the term either on the left or right side of the '/' for this description.
 
 `<Ship>` = Either a specific or nonspecific ship name.
-* specific: Kawakaze Kai Ni; Akagi Kai Ni or Akagi Kai Ni E.
-* nonspecific: 2 ships; 2 Light Cruisers; 3 level 70 or above Yuugumo-class Destroyers; 2 additional ships; at least 3 Destroyers/Coastal Defense Ships.
+* Specific: Kawakaze Kai Ni; Akagi Kai Ni or Akagi Kai Ni E.
+* Nonspecific: 2 ships; 2 Light Cruisers; 3 level 70 or above Yuugumo-class Destroyers; 2 additional ships; at least 3 Destroyers/Coastal Defense Ships.
 	
 `<as X ship>` = Denotes the required position in the fleet for the given ship. X = flag, second, third, fourth, fifth, sixth.
 * If X = flag, don't include a space between "flag" and "ship", just write "flagship".
