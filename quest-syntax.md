@@ -5,38 +5,40 @@
 * There will, for sure, be quests that have requirements that do not fall into this grammar. In those edge cases, follow the grammar as strictly as possible while including the deviant requirements.
 * `<>` denotes terms that are not to be taken literally and are defined in the glossary. Examples of each are given where applicable, more will be added as needed.
 
-## Composition
 
-`Have (ONLY) <Ship> (<as flagship>, <Ship> <as second ship>, ... , and <Ship>) in your <fleet number> fleet.`
+## Quest Descriptions
+### Composition
 
-## Sortie
+`Have (ONLY) <Ship> ((<as X ship>), <Ship> (<as X ship>), ... , and <Ship> (<as X ship>)) in your <Fleet Number> fleet.`
 
-`Sortie [a/the <fleet number> fleet] with <Ship> (<as flagship>, <Ship> <as second ship>, ... , and <Ship>) to World(s) X-X(, X-X, ... , and X-X).  [Obtain <Rank> at <Node> (of X-X(, X-X, ... , and X-X)) <Times>/Reach <Node> (of X-X(, X-X, ... , and X-X)) <Times>].  ([Obtain...]) ...`
+### Sortie
+
+`Sortie [a / the <Fleet Number> fleet] with <Ship> ((<as X ship>), <Ship> (<as X ship>), ... , and <Ship> (<as X ship>)) to World(s) X-X(, X-X, ... , and X-X).  [Obtain <Rank> at <Node> (of X-X(, X-X, ... , and X-X)) <Times> / Reach <Node> (of X-X(, X-X, ... , and X-X)) <Times>].  ([Obtain...]) ...`
 
 * Use multiple "Obtain" statements for maps that have many specific requirements.
 * X-X is a placeholder for a map ID, they should be filled in as needed and should link to the respective map page.
 
-## Exercise
+### Exercise
 
 `(Use a fleet with <Ship> (<as flagship>, <Ship> <as second ship>, ... , and <Ship>) to) (Obtain <Rank>/Participate) in Exercises <times> (<within the same X>).`
 
-## Expedition
+### Expedition
 
-`Complete (X) Expedition(s) X <times> (<within the same X>).`
+`Complete (X) Expedition(s) X(, X, ... , and X) <times> (<within the same X>).`
 
-## Supply/Docking Quests
+### Supply/Docking Quests
 
 Handle on a case-by-case basis.
 
-## Arsenal
+### Arsenal
 
-### For crafting quests
-`Craft (a (piece) / X (pieces)) (of) (ship(s)/ equipment).`
+#### For crafting quests
+`Craft (a (piece of) / X (pieces of)) (ship(s)/ equipment).`
 
-### For scrapping quests
-`[Scrap/Dismantle] (a (piece) / X (pieces)) (of) (ship(s)/ equipment).`
+#### For scrapping quests
+`[Scrap/Dismantle] (a (piece of) / X (pieces of)) (ship(s)/ equipment).`
 
-### For item conversion/creation quests
+#### For item conversion/creation quests
 ```
 (Prepare <Equipment>, ... , and <Equipment> in your inventory.) Have <Ship> as secretary (equipped with <Equipment> (<on her Xth slot>)). 
 Scrap <Equipment>(, ... , and <Equipment>).
@@ -52,16 +54,16 @@ Scrap <Equipment>(, ... , and <Equipment>).
 * When referring to general groups of items to scrap, link to the item page and use terminology consistent with the title of said page.
 	* Example: Anti-air guns vs Machine guns - the group page for the item says Anti-air guns, therefore use Anti-air guns.
 
-## Modernization
+### Modernization
 
 Handle on a case-by-case basis.
 
-## Marriage
+### Marriage
 
 Refer to applicable sections above.
 
-## Rewards
 
+## Quest Reward Lists
 ### For quests with no choices
 ```
 <Equipment> xX
@@ -97,28 +99,28 @@ or
 (or
 ...))
 ```
-* Non-choice rewards first, followed by choice rewards.
+* Non-choice rewards should be listed first, followed by choice rewards.
+
 
 ## Glossary
 `X` = Generic placeholder for integer values. X's inside of <>'s are NOT equivalent, see below.
 
-`()` = Denotes terms that are not included in every description, but should be included when appropriate.
+`()` = Denotes terms that are not to be included in every description, but should be included when appropriate.
 
-`[.../...]` = Use the term either on the left or right side of the '/' for this description.
+`[... / ...]` = Use the term either on the left or right side of the '/' for this description.
 
 `<Ship>` = Either a specific or nonspecific ship name.
 * specific: Kawakaze Kai Ni; Akagi Kai Ni or Akagi Kai Ni E.
 * nonspecific: 2 ships; 2 Light Cruisers; 3 level 70 or above Yuugumo-class Destroyers; 2 additional ships; at least 3 Destroyers/Coastal Defense Ships.
 	
-`<as flagship>` = Denotes that the given Ship must be the flagship of the given fleet.
-	
-`<as X ship>` = Denotes the required position in the fleet for the given ship. X = second, third, fourth, fifth, sixth.
+`<as X ship>` = Denotes the required position in the fleet for the given ship. X = flag, second, third, fourth, fifth, sixth.
+* If X = flag, don't include a space between "flag" and "ship", just write "flagship".
 	
 `<on her X slot>` = Denotes the required slot that a piece of equipment must be placed in. X = second, third, fourth, fifth. The lack of this term implies that the equipment in question can be in any slot to fulfill quest requirements.
 	
 `<within the same X>` = Denotes the time period during which specified actions must be completed to fulfill quest requirements. X = day, week, month, etc.
 	
-`<fleet number>` = The number of the required fleet, expressed as first, second, third, fourth. The lack of this term implies that ANY fleet can be used to fulfill quest requirements.
+`<Fleet Number>` = The number of the required fleet, expressed as first, second, third, fourth. The lack of this term implies that ANY fleet can be used to fulfill quest requirements.
 	
 `<Rank>` = A given rank.  Valid Ranks are "a S-rank", "an A-rank", "a B-rank", "a C-rank". Implies that the Rank obtained can be at or above the given Rank to fulfill quest requirements.
 	
